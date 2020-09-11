@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(fran-O5AUshHn28A-unsplash.jpg) no-repeat center center/cover;
+    min-height: 30rem;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    background-color: brown;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+img{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    color: white;
+    line-height: 50px;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+}
+.section p{
+    color: white;
+}
+
+.btn-1{
+    background-color: black;
+    padding: 0.7rem 2rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#courses img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: auto;
+}
+.apply {
+    margin-top: 4%;
+    background-color: wheat;
+    padding: 0.7rem 1rem;
+    color: brown;
+    border: none;
+    border-radius: 10px;
+}
+footer {
+    background-color: brown;
+    color: burlywood;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+footer p{
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+footer ul li a{
+    display: flex;
+    margin-right: 1.9rem;
+    color: wheat;
+    align-items: center;
+}
