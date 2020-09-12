@@ -104,24 +104,20 @@ showcase h1{
     border-radius: 10px;
 }
 footer {
-    background-color: brown;
-    color: burlywood;
+    background-color: bisque;
+    color: brown;
     text-align: center;
     padding: 1.2rem;
     margin-top: 4%;
 }
 footer p{
     text-decoration: none;
+    
 }
 footer ul{
     list-style: none;
     display: flex;
-    text-align: center;
-    align-items: center;
 }
-footer ul li a{
-    display: flex;
-    margin-right: 1.9rem;
-    color: wheat;
-    align-items: center;
+footer ul li a img{
+    width: 6%;
 }
